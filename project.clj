@@ -1,4 +1,4 @@
-(defproject spootnik/commons "0.3.0"
+(defproject spootnik/commons "0.3.1-SNAPSHOT"
   :description "Extensions to clojure.core"
   :url "https://github.com/pyr/transducers"
   :license {:name "MIT/ISC License"
