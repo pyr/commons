@@ -5,6 +5,9 @@ commons: it's dangerous to go alone, take this.
 
 A collection of small, dependency-free functions that you might find useful.
 
+[![Build Status](https://secure.travis-ci.org/pyr/commons.png)](http://travis-ci.org/pyr/commons)
+
+
 ## Installing
 
 ```clojure
