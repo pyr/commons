@@ -14,7 +14,7 @@ A collection of small, dependency-free functions that you might find useful.
   [spootnik/commons "0.3.0"]
 ```
 
-## Transducers
+## Transducers (namespace: `spootnik.transducers`)
 
 ### `reductions-with`
 
