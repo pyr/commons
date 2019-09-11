@@ -11,7 +11,7 @@ A collection of small, dependency-free functions that you might find useful.
 ## Installing
 
 ```clojure
-  [spootnik/commons "0.3.0"]
+  [spootnik/commons "0.3.1"]
 ```
 
 ## Transducers (namespace: `spootnik.transducers`)
@@ -33,7 +33,20 @@ A version of distinct which determines identity through an identity function.
        [{:time 0 :event :a} {:time 1 :event :c}]))
 ```
 
+## Clock (namespace: `spootnik.clock`)
+
+Useful in component systems where you might want to replace a wall
+clock by a controllable one. Wall clock implementation provided.
+
+Consists of the `spootnik.clock.Clock` protocol and a wall clock
+implementation.
+
+```
+(epoch wall-clock) ;; => 1568196351534
+```
+
+
 ## License
 
-Copyright © 2016 Pierre-Yves Ritschard. MIT/ISC License.
+Copyright © 2019 Pierre-Yves Ritschard. MIT/ISC License.
 

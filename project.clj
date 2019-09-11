@@ -1,6 +1,7 @@
 (defproject spootnik/commons "0.3.1-SNAPSHOT"
-  :description "Extensions to clojure.core"
-  :url "https://github.com/pyr/transducers"
+  :description "No-dependency convenience utilities"
+  :url "https://github.com/pyr/commons"
   :license {:name "MIT/ISC License"
             :url "https://github.com/pyr/commons/tree/master/LICENSE"}
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+  :deploy-repositories [["snapshots" :clojars] ["releases" :clojars]]
+  :dependencies [[org.clojure/clojure "1.10.1"]])
