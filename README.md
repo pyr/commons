@@ -45,6 +45,12 @@ implementation.
 (epoch wall-clock) ;; => 1568196351534
 ```
 
+## Changelog
+
+## 0.3.1
+
+- Introduce `spootnik.clock`
+
 
 ## License
 
