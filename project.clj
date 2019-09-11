@@ -4,4 +4,5 @@
   :license {:name "MIT/ISC License"
             :url "https://github.com/pyr/commons/tree/master/LICENSE"}
   :deploy-repositories [["snapshots" :clojars] ["releases" :clojars]]
-  :dependencies [[org.clojure/clojure "1.10.1"]])
+  :dependencies [[org.clojure/clojure "1.10.1"]]
+  :pedantic? :abort)
