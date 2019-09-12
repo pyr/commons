@@ -1,4 +1,4 @@
-(defproject spootnik/commons "0.3.2"
+(defproject spootnik/commons "0.3.3-SNAPSHOT"
   :description "No-dependency convenience utilities"
   :url "https://github.com/pyr/commons"
   :license {:name "MIT/ISC License"
